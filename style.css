@@ -1,0 +1,221 @@
+body {
+    margin: 0;
+    font-family: "Inter";
+    background-color: #fff;
+}
+
+.main-container {
+    width: 100%;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 60px;
+    background-color: #fff;
+}
+
+.link-1{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 150%;
+    /* line-height: 29px; */
+    display: flex;
+    align-items: flex-end;
+    text-decoration: none;
+    color: #343434;
+    padding: 0 30px;
+}
+
+.link-2{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 150%;
+    /* line-height: 29px; */
+    display: flex;
+    align-items: flex-end;
+    text-decoration: none;
+    color: #343434;
+    padding: 0 30px;
+}
+
+.links-1{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    align-content: stretch;
+    width: 50%;
+}
+
+.links-2{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    align-content: stretch;
+    width: 25%;
+}
+
+.visit{
+    background: url(/uploads/firework.png), lightgray 50% / cover no-repeat;
+    background-size: cover;
+    height: 525px;
+    width: 92%;
+    margin: 0px 60px 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.h1{
+    font-size: 345%;
+    font-weight: 700;
+}
+
+.button{
+    background-color: #F3BB36;
+    font-weight: 300;
+    border: 0;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    width: 365px;
+    height: 75px;
+    padding: 0;
+} 
+
+#nv img{
+    height: 443px;
+    width: 100%;
+}
+
+.visit_h2{
+    font-size: 32px;
+    font-weight: 700;
+    margin: 28px 0 19px;
+}
+
+.visit_p{
+    font-size: 18px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.skidonNh1{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.product_h1{
+    margin: 0;
+    padding-bottom: 20px; 
+    font-size: 20px;
+}
+
+.product_category{
+    padding: 25px 0 15px; 
+    margin: 0;
+    font-size: 14px;
+}
+
+.price{
+    text-align: end; 
+    margin: 0; 
+    font-weight: 700; 
+    font-size: 24px;
+}
+
+.skidon{
+    position: relative;
+    background-color: #F39736;
+    width: 66px;
+    height: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skidon_font{
+    color: #fff;   
+}
+
+footer{
+    background-color: #F3AB36;
+    height: 289px;
+}
+
+.links-f{
+margin: 0;
+display: flex;
+}
+
+.link-f{
+    font-size: 24px;
+    color: #9E5A12;
+    padding-right: 70px;
+    text-decoration: none;
+}
+.link-f2{
+    padding-right: 70px;
+}
+
+#catalog{
+    margin: 75px 60px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.category{
+    padding-right: 15em;
+    border-right: #a0a0a0 solid 1px;
+}
+
+.font_cat{
+    font-size: 28px;
+    font-weight: 450;
+    margin: 0 0 55px;
+}
+
+#products{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 110px;
+    flex-wrap: wrap;
+}
+
+input[type="text"]{
+    width: 365px;
+    height: 68px;
+    background-color: #D9D9D9;
+    border: 0;
+    padding: 0;
+    font-size: 150%;
+}
+.center{
+    text-align:center;
+}
+
+.center td{
+    padding: 5px;
+}
+
+.in {
+    display: flex;
+    justify-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+    
+}
